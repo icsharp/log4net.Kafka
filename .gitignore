@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/log4net.Kafka/obj/Debug
+/log4net.Kafka/bin/Debug
+/.vs/log4net.Kafka/v14/.suo
+/.vs/log4net.Kafka/v14
+/log4net.Kafka.Console/bin/Debug
+/log4net.Kafka.Console/obj/Debug
+/packages/kafka-net.0.9.0.65
+/packages/log4net.2.0.3
