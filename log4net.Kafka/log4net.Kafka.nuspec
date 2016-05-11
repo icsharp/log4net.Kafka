@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>$id$</id>
+		<version>$version$</version>
+		<title>$title$</title>
+		<authors>icsharp</authors>
+		<owners>icsharp</owners>
+		<licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+		<projectUrl>https://github.com/icsharp/log4net.Kafka</projectUrl>
+		<iconUrl>http://kafka.apache.org/images/kafka_logo.png</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>log4net appender to Kafka and provide logstash json_event PatternLayout</description>
+		<releaseNotes>log4net.Kafka 0.1</releaseNotes>
+		<copyright>Copyright 2016</copyright>
+		<tags>log4net.Kafka Logstash</tags>
+	</metadata>
+</package>
