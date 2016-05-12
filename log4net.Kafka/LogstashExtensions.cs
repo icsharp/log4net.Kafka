@@ -76,6 +76,7 @@ namespace log4net.Kafka
 			.WriteValueObject("@version", evt.version).Append(",")
 			.WriteString("@timestamp", evt.timestamp).Append(",")
 			.WriteString(nameof(LogstashEvent.source_host), evt.source_host).Append(",")
+			.WriteString(nameof(LogstashEvent.app), evt.app).Append(",")
 			.WriteString(nameof(LogstashEvent.thread_name), evt.thread_name).Append(",")
 			.WriteString(nameof(LogstashEvent.@class), evt.@class).Append(",")
 			.WriteString(nameof(LogstashEvent.method), evt.method).Append(",")
