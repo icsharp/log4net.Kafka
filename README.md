@@ -38,4 +38,4 @@ Install-Package log4net.Kafka
 </log4net>
 ```
 ## How to use log4net.Kafka without logstash?
-Using layout 'log4net.Layout.PatternLayout' to instead 'log4net.Kafka.LogstashLayout'
+Using layout `log4net.Layout.PatternLayout` to instead `log4net.Kafka.LogstashLayout`.
