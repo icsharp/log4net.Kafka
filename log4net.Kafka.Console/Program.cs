@@ -17,11 +17,11 @@ namespace log4net.Kafka.Console
 
 			ILog logger = LogManager.GetLogger(typeof(Program));
 
-			//logger.Debug("this Debug msg");
-			//logger.Warn("this Warn msg");
-			//logger.Info("this Info msg");
-			//logger.Error("this Error msg");
-			//logger.Fatal("this Fatal msg");
+			logger.Debug("this Debug msg");
+			logger.Warn("this Warn msg");
+			logger.Info("this Info msg");
+			logger.Error("this Error msg");
+			logger.Fatal("this Fatal msg");
 
 			try
 			{
