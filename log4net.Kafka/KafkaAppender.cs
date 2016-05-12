@@ -13,14 +13,8 @@ namespace log4net.Kafka
 {
 	public class KafkaAppender : AppenderSkeleton
 	{
-		private string _Topic = "{0}";
 		private Producer _producer;
 
-		public string Topic
-		{
-			get { return _Topic; }
-			set { _Topic = value; }
-		}
 		public KafkaSettings KafkaSettings { get; set; }
 
 		public override void ActivateOptions()
