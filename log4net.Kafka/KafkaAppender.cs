@@ -56,7 +56,7 @@ namespace log4net.Kafka
 			}
 			catch (Exception ex)
 			{
-				ErrorHandler.Error("could not stop producer", ex);
+				ErrorHandler.Error("could not start producer", ex);
 			}
 		}
 		private string GetTopic(LoggingEvent loggingEvent)
