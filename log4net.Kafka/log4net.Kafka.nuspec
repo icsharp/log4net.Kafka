@@ -12,7 +12,6 @@
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>log4net appender to Kafka and provide logstash json_event PatternLayout</description>
 		<releaseNotes>log4net.Kafka 0.1</releaseNotes>
-		<copyright>Copyright 2016</copyright>
 		<tags>log4net Kafka Logstash</tags>
 	</metadata>
 </package>
